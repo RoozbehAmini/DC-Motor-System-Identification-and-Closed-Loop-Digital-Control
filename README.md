@@ -1,11 +1,11 @@
 # DC Motor System Identification and Closed-Loop Digital Control
 
 ## Overview
-This repository contains the firmware, data acquisition scripts, and controller design files for a complete closed-loop digital speed control system for a DC Motor. Implemented on an Arduino Uno R3, the project bridges theoretical continuous-time control systems with practical, real-time discrete implementation. 
+This repository contains the firmware, data acquisition scripts, and controller design files for a complete closed-loop digital speed control system for a DC Motor. **This project was developed across two dedicated lab sessions as part of the broader Advanced Mechatronics course curriculum.** Implemented on an Arduino Uno R3, the project bridges theoretical continuous-time control systems with practical, real-time discrete implementation. 
 
 The project was executed in two primary phases:
-1.  **Open-Loop Analysis & System Identification:** Developing robust hardware interrupt-driven encoder interfaces, measuring velocity, analyzing PWM nonlinearities, and extracting a first-order transfer function from experimental step-response data.
-2.  **Closed-Loop Digital Control:** Designing and simulating two-stage lead-lag compensators using Root Locus techniques, discretizing them via the Tustin method, and deploying them in a real-time 200 Hz control loop.
+1.  **Phase 1: Open-Loop Analysis & System Identification:** Developing robust hardware interrupt-driven encoder interfaces, measuring velocity, analyzing PWM nonlinearities, and extracting a first-order transfer function from experimental step-response data.
+2.  **Phase 2: Closed-Loop Digital Control:** Designing and simulating two-stage lead-lag compensators using Root Locus techniques, discretizing them via the Tustin method, and deploying them in a real-time 200 Hz control loop.
 
 ## Hardware Configuration
 *   **Microcontroller:** Arduino Uno R3 (ATmega328P, 16 MHz)
